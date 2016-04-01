@@ -238,6 +238,8 @@ used to generate a well-formed component:
 *   Unqualified [builders][Subcomponent.Builder] for any included
     [subcomponent][Subcomponent]
 *   `Provider` or `Lazy` wrappers for any of the above bindings
+*   A `Provider` of a `Lazy` of any of the above bindings (e.g.,
+    `Provider<Lazy<CoffeeMaker>>`)
 *   A `MembersInjector` for any type
 
 ### Singletons and Scoped Bindings
