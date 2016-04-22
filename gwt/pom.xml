@@ -43,6 +43,7 @@
   </dependencies>
 
   <build>
+    <pluginManagement>
     <plugins>
       <!--
         Include JSR 330 sources in dagger-gwt to avoid implicit
@@ -73,6 +74,7 @@
         </executions>
       </plugin>
     </plugins>
+  </pluginManagement>
   </build>
 
 </project>
